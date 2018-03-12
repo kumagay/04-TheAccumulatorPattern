@@ -220,28 +220,28 @@ def run_test_count_sines_vs_cosines():
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
 
-    expected = 100
-    answer = count_sines_vs_cosines(101)
+    expected = 50
+    answer = count_sines_vs_cosines(51)
     print('Test 2 expected:', expected)
     print('       actual:  ', answer)
 
-    expected = 100
-    answer = count_sines_vs_cosines(101)
+    expected = 21
+    answer = count_sines_vs_cosines(21)
     print('Test 3 expected:', expected)
     print('       actual:  ', answer)
 
-    expected = 100
-    answer = count_sines_vs_cosines(101)
+    expected = 62
+    answer = count_sines_vs_cosines(61)
     print('Test 4 expected:', expected)
     print('       actual:  ', answer)
 
-    expected = 100
-    answer = count_sines_vs_cosines(101)
+    expected = 1001
+    answer = count_sines_vs_cosines(1001)
     print('Test 5 expected:', expected)
     print('       actual:  ', answer)
 
-    expected = 100
-    answer = count_sines_vs_cosines(101)
+    expected = 12
+    answer = count_sines_vs_cosines(11)
     print('Test 6 expected:', expected)
     print('       actual:  ', answer)
 
