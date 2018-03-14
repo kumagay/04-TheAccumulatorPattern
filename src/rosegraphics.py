@@ -1165,7 +1165,7 @@ class Line(_Shape, _ShapeWithThickness):
        window = rg.RoseWindow()
        line.attach_to(window)
 
-       line.move_by(-50, 60)
+       +-++++++++++
     """
 
     def __init__(self, start, end):

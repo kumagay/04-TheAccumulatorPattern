@@ -14,7 +14,6 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 
 import rosegraphics as rg
 
-
 # ----------------------------------------------------------------------
 # Students: As you work each of these problems, ask yourself:
 #   1. Do I need a loop?
@@ -95,6 +94,18 @@ def draw_parallel_lines(n, point, length, window):
       :type length: int
       :type window: rg.RoseWindow
     """
+    start = point
+    end = rg.Point(start.x + length, start.y + 30)
+    line = rg.Line(start, end)
+
+    line.color = 'black'
+    line.thickness = 3
+    line.arrow = None  # Just a line (no arrow)
+    line.arrow = 'first'  # Arrow from end to start
+
+    line.attach_to(window)
+
+    window.render()
     # ------------------------------------------------------------------
     # TODO: 2. Implement and test this function.
     #          Tests have been written for you (above).
